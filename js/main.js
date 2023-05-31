@@ -71,7 +71,7 @@ $(document).ready(function () {
   // ===============================
   // start all pages in one time
   $(window).on("load", function () {
-    getPage("./data/tC.json", "Tronc Commun", $(".TCtable"), $(".TCtitle"));
+    getPage("../data/tC.json", "Tronc Commun", $(".TCtable"), $(".TCtitle"));
     getPage(
       "../data/1bac.json",
       "1ère année baccalauréat",
