@@ -73,20 +73,20 @@ $(document).ready(function () {
   $(window).on("load", function () {
     getPage("./data/tC.json", "Tronc Commun", $(".TCtable"), $(".TCtitle"));
     getPage(
-      "./data/1bac.json",
+      "../data/1bac.json",
       "1ère année baccalauréat",
       $(".bacTable"),
       $(".bacTitle")
     );
     getPage(
-      "./data/2bac.json",
+      "../data/2bac.json",
       "physique",
       $(".phTable"),
       $(".phTitle"),
       "text-[#f00]"
     );
     getPage(
-      "./data/2bacChimie.json",
+      "../data/2bacChimie.json",
       "chimie",
       $(".chTable"),
       $(".chTitle"),
