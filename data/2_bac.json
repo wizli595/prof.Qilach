@@ -1,0 +1,163 @@
+[
+    {
+        "id": 1,
+        "chapiter": "Les questions qui se posent les physiciens",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 2,
+        "chapiter": "Ondes progressives",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 3,
+        "chapiter": "Ondes périodiques",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 4,
+        "chapiter": "Propagation d'une onde lumineuse",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 5,
+        "chapiter": "Décroissance radioactive",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 6,
+        "chapiter": "Noyau , énergie et masse",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 7,
+        "chapiter": "Dipôle RC",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 8,
+        "chapiter": "Dipôle RL",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 9,
+        "chapiter": "Oscillation libre dans RLC en série",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 10,
+        "chapiter": "Circuit (R,L,C)en série en régime forcé",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 11,
+        "chapiter": "Ondes électromagnétique",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 12,
+        "chapiter": "Modulation d'amplitude",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 13,
+        "chapiter": "les lois de Newton",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 14,
+        "chapiter": "La chute libre verticale d’un solide (pour sc.vie et terre)",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 15,
+        "chapiter": "La chute verticale d’un solide (pour sc.physique et sc.m)",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 16,
+        "chapiter": "Le mouvement d’un projectile  dans un plan(pour sc.vie et terre)",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 17,
+        "chapiter": "Les mouvements plans(pour sc.physique et sc.m)",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 18,
+        "chapiter": "Mouvement des satellites et des planètes",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 19,
+        "chapiter": "Mouvement de rotation d’un solide autour d’un axe fixe",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 20,
+        "chapiter": "Système mécanique oscillant",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 21,
+        "chapiter": "Aspects énergétiques ( pour sc.vie et terre et sc.agro)",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 22,
+        "chapiter": "Aspects énergétiques (pour sc.phy et sc.math)",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 23,
+        "chapiter": "L’atome et la mécanique de Newton",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    }
+]

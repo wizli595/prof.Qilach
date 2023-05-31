@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- tailwind file -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <style>
+        table tr th {
+            border: 2px solid;
+            padding: 5px;
+            text-align: center;
+            text-transform: capitalize;
+            width: 90px;
+        }
+
+        td {
+            text-align: center;
+            border: 2px solid;
+            width: 90px;
+            height: 50px;
+        }
+
+        .pdf {
+            width: 50px;
+        }
+
+        i {
+            margin: 10px;
+        }
+
+        img {
+            width: 53px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <nav class="w-11/12 m-auto mt-2">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="index.html" class="flex items-center">
+                <img src="img/HQ LOGO PNG.png" class="mr-1" alt="cinlogo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap">Prof. Qilach</span>
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false" id="btn">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
+                    <li>
+                        <a href="index.html"
+                            class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0  md:dark:text-blue-500"
+                            aria-current="page">acceuil</a>
+                    </li>
+                    <li>
+                        <a href="pages/tCommun.html"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Tronc
+                            Commun</a>
+                    </li>
+                    <li>
+                        <a href="pages/1_bac.html"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">1ère
+                            Bac</a>
+                    </li>
+                    <li>
+                        <a href="pages/2_bac.html"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">2ème
+                            Bac</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <div class="container mx-auto px-4 mt-5">
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <div class="card bg-white rounded-lg shadow-md">
+                <div class="card-image rounded">
+                    <img src="img/ph.jpg" alt="" class="h-52">
+                </div>
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold text-center">troc commun</h3>
+                    <p class="text-gray-700 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+                        finibus dolor id dolor fermentum accumsan.</p>
+                </div>
+            </div>
+
+            <div class="card bg-white rounded-lg shadow-md">
+                <div class="card-image rounded">
+                    <img src="img/ph.jpg" alt="" class="h-52">
+                </div>
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold text-center">1 bac</h3>
+                    <p class="text-gray-700 mt-2">Sed malesuada, libero non faucibus posuere, massa tellus auctor elit,
+                        at ultrices arcu risus non elit.</p>
+                </div>
+            </div>
+
+            <div class="card bg-white rounded-lg shadow-md">
+                <div class="card-image rounded">
+                    <img src="img/ph.jpg" alt="" class="h-52">
+                </div>
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold text-center"> 2 bac</h3>
+                    <p class="text-gray-700 mt-2">Vestibulum ultrices neque eget nibh tempus fringilla. Sed vitae enim
+                        nec tortor pharetra lacinia.</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="flex justify-center mt-5 ">
+        <button id="tc" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-2">Tronc
+            Commun</button>
+        <button id="bc1" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-2">1ère
+            Bac</button>
+        <button id="bc2" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-2">2ème
+            Bac</button>
+    </div>
+    <div id="btns" class="hidden">
+        <h1 class='text-5xl text-center font-extrabold m-2'>2ème année baccalauréat</h1>
+        <div class="flex justify-center mt-5 ">
+            <button id="physic"
+                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-2">physique</button>
+            <button id="chimie"
+                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-2">chimie</button>
+        </div>
+    </div>
+
+    <div class="title flex justify-center mt-5">
+
+    </div>
+    <div class="tbl flex justify-center mt-5">
+        <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400 mx-3">
+        </table>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

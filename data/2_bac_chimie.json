@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "chapiter": "Les questions qui se pose le chimiste",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 2,
+        "chapiter": "Transformations lentes et rapides",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 3,
+        "chapiter": "Suivi temporel d’une transformation - Vitesse de réaction",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 4,
+        "chapiter": "Transformations chimique qui s’effectuent en deux sens",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 5,
+        "chapiter": "Etat d'équilibre d'un système chimique",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 6,
+        "chapiter": "Transformation liée à des réactions acides et bases",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 7,
+        "chapiter": "Dosage acido-basique",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 8,
+        "chapiter": "Evolution spontanée d'un système chimique",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 9,
+        "chapiter": "Transformation Spontanées dans les piles et production d'énergie",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 10,
+        "chapiter": "Transformations forcées - L'électrolyse",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 11,
+        "chapiter": "Réactions d'estérification et d'hydrolyse",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    },
+    {
+        "id": 12,
+        "chapiter": "Contrôle de l'évolution d'un système chimique",
+        "pdfs": [],
+        "link": "",
+        "exercice": []
+    }
+]
