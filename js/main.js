@@ -47,14 +47,20 @@ $(document).ready(function () {
   let phBtn = $("#physic");
   phBtn.click(function () {
     hid($("table"), $(".title"));
-    getPage("2bac.json", "physique", $("table"), $(".title"), "text-[#f00]");
+    getPage(
+      "data/2bac.json",
+      "physique",
+      $("table"),
+      $(".title"),
+      "text-[#f00]"
+    );
   });
   // ******physic*******
   let chBtn = $("#chimie");
   chBtn.click(function () {
     hid($("table"), $(".title"));
     getPage(
-      "2bacChimie.json",
+      "data/2bacChimie.json",
       "chimie",
       $("table"),
       $(".title"),
