@@ -24,7 +24,7 @@ $(document).ready(function () {
   let b1Btn = $("#bc1");
   b1Btn.click(function () {
     $.get(
-      "data/1_bac.json",
+      "data/1bac.json",
       function (data, textStatus, jqXHR) {
         getData(data, "1ère année baccalauréat");
       },
@@ -47,14 +47,14 @@ $(document).ready(function () {
   let phBtn = $("#physic");
   phBtn.click(function () {
     hid($("table"), $(".title"));
-    getPage("2_bac.json", "physique", $("table"), $(".title"), "text-[#f00]");
+    getPage("2bac.json", "physique", $("table"), $(".title"), "text-[#f00]");
   });
   // ******physic*******
   let chBtn = $("#chimie");
   chBtn.click(function () {
     hid($("table"), $(".title"));
     getPage(
-      "2_bac_chimie.json",
+      "2bacChimie.json",
       "chimie",
       $("table"),
       $(".title"),
@@ -67,20 +67,20 @@ $(document).ready(function () {
   $(window).on("load", function () {
     getPage("../data/tC.json", "Tronc Commun", $(".TCtable"), $(".TCtitle"));
     getPage(
-      "../data/1_bac.json",
+      "../data/1bac.json",
       "1ère année baccalauréat",
       $(".bacTable"),
       $(".bacTitle")
     );
     getPage(
-      "../data/2_bac.json",
+      "../data/2bac.json",
       "physique",
       $(".phTable"),
       $(".phTitle"),
       "text-[#f00]"
     );
     getPage(
-      "../data/2_bac_chimie.json",
+      "../data/2bacChimie.json",
       "chimie",
       $(".chTable"),
       $(".chTitle"),
