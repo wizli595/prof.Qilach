@@ -65,22 +65,22 @@ $(document).ready(function () {
   // ===============================
   // start all pages in one time
   $(window).on("load", function () {
-    getPage("tC.json", "Tronc Commun", $(".TCtable"), $(".TCtitle"));
+    getPage("../data/tC.json", "Tronc Commun", $(".TCtable"), $(".TCtitle"));
     getPage(
-      "1_bac.json",
+      "../data/1_bac.json",
       "1ère année baccalauréat",
       $(".bacTable"),
       $(".bacTitle")
     );
     getPage(
-      "2_bac.json",
+      "../data/2_bac.json",
       "physique",
       $(".phTable"),
       $(".phTitle"),
       "text-[#f00]"
     );
     getPage(
-      "2_bac_chimie.json",
+      "../data/2_bac_chimie.json",
       "chimie",
       $(".chTable"),
       $(".chTitle"),
@@ -117,7 +117,7 @@ $(document).ready(function () {
   // ==========================
   function getPage(file, title, tabl, tbltitle, color = "") {
     $.get(
-      `../data/${file}`,
+      `${file}`,
       function (data, textStatus, jqXHR) {
         // console.log(data[0].chapiter);
         let box = tbltitle;
